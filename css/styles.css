@@ -1,0 +1,96 @@
+body {
+    margin: auto;
+    background-color: #D0B8A8;
+    text-align: center;
+}
+
+h1 {
+    color: lightblue;
+    font-family: 'Dancing Script', cursive;
+    font-size: 8rem;
+    margin: 0;
+}
+
+h2 {
+    color: #F8EDE3;
+}
+
+p {
+    font-weight: normal;
+    color: #F8EDE3;
+    font-family: 'DM Serif Display', serif;
+    font-weight: lighter;
+}
+
+.navbar {
+    list-style: none;
+    word-spacing: 200px;
+    margin: 15px 10px auto --20px ;
+    color: #F8EDE3;
+    font-family: monospace;
+    font-size: larger;
+}
+
+.socials {
+    list-style: none;
+}
+
+.social {
+    display: inline-block;
+}
+
+.fa-brands {
+    margin: auto;
+    padding: 10px;
+    color: white;
+}
+
+.fa-brands:hover {
+    color: lightcoral;
+}
+
+.nav-item:hover {
+    color: lightcoral;
+    cursor: pointer;
+}
+
+.nav-item {
+    display: inline-block;
+}
+
+.top-container {
+    width: 50%;
+    position: relative;
+    margin: 55px auto;
+    position: relative;
+}
+
+.title {
+    margin-top: -4px;
+    color: orangered;
+    font-size: large;
+}
+
+.bottom-text {
+    font-family: monospace;
+    font-size: x-large;
+    padding-top: 10px;
+}
+
+.girl-img {
+    height: 350px;
+}
+
+.star-img {
+    height: 100px;
+    position: absolute;
+    top: 25px;
+    right: 35px;
+}
+
+.star2-img {
+    height: 100px;
+    position: absolute;
+    top: 25px;
+    left: 35px;
+}
