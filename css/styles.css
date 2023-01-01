@@ -9,6 +9,7 @@ h1 {
     font-family: 'Dancing Script', cursive;
     font-size: 8rem;
     margin: 0;
+    text-shadow: 2px 2px orangered;
 }
 
 h2 {
@@ -22,31 +23,18 @@ p {
     font-weight: lighter;
 }
 
+header {
+    background-color: #e8ddd2;
+    padding: 30px 0 20px;
+}
+
 .navbar {
     list-style: none;
     word-spacing: 200px;
     margin: 15px 10px auto --20px ;
-    color: #F8EDE3;
+    color: #D0B8A8;
     font-family: monospace;
     font-size: larger;
-}
-
-.socials {
-    list-style: none;
-}
-
-.social {
-    display: inline-block;
-}
-
-.fa-brands {
-    margin: auto;
-    padding: 10px;
-    color: white;
-}
-
-.fa-brands:hover {
-    color: lightcoral;
 }
 
 .nav-item:hover {
@@ -66,15 +54,24 @@ p {
 }
 
 .title {
-    margin-top: -4px;
+    padding-top: 4px;
     color: orangered;
-    font-size: large;
+    text-shadow: 1px 1px lightyellow;
+    font-size: larger;
+}
+
+.location {
+    width: 30%;
+    margin: auto;
 }
 
 .bottom-text {
     font-family: monospace;
     font-size: x-large;
-    padding-top: 10px;
+    padding-top: 25px;
+    width: 65%;
+    margin: auto;
+    color: #a28a6f;
 }
 
 .girl-img {
@@ -93,4 +90,35 @@ p {
     position: absolute;
     top: 25px;
     left: 35px;
+}
+
+footer {
+    background-color: lightblue;
+    padding: 20px 0 20px;
+}
+
+.socials {
+    list-style: none;
+}
+
+.social {
+    display: inline-block;
+    font-size: x-large;
+    padding-right: 13px;
+}
+
+.fa-brands {
+    margin: auto;
+    padding: 10px;
+    color: white;
+}
+
+.fa-brands:hover {
+    color: rgb(250, 216, 154);
+}
+
+.flat_link {
+    color: white;
+    padding: -1px;
+    padding-left: 5px;
 }
